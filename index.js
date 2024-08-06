@@ -4,11 +4,7 @@ const app = express();
 const port = 5678;
 
 app.use("/", (req, res) => {
-  res.json({ message: "Yours Charan Goud" });
-});
-
-app.use("/contact", (req, res) => {
-  res.json({ message: "Contact Page" });
+  res.html("<h1>sai</h1>");
 });
 
 app.listen(9000, () => {

@@ -4,7 +4,7 @@ const app = express();
 const port = 9000;
 
 app.use("/", (req, res) => {
-  res.html({ message: "Yours Charan Goud" });
+  res.json({ message: "Yours Charan Goud" });
 });
 
 app.listen(9000, () => {
